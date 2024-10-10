@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
     if(user?.salt != null && user?.password == DatabaseHelper().hashPassword(_password!, user!.salt!)) {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) =>  const HomePage()),
+        MaterialPageRoute(builder: (context) =>  HomePage()),
       );
     }
     else {
