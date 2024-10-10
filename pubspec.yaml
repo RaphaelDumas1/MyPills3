@@ -30,6 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sqflite: 
+  path :
+  crypto:
+  intl:
+  flutter_localizations:
+    sdk: flutter
+  table_calendar:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -52,6 +59,16 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  assets:
+      - assets/logo.png
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
