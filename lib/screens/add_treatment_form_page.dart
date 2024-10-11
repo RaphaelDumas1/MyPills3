@@ -105,7 +105,7 @@ class _AddTreatmentPageState extends State<AddTreatmentPage> {
                   border: OutlineInputBorder(),
                 ),
                 value: _selectedType,
-                items: ['jélulle', 'konprimais', 'aiphérvaicent', 'ciros', 'çupozitouare', 'picoure']
+                items: ['gellule', 'comprimé']
                     .map((type) => DropdownMenuItem(
                           value: type,
                           child: Text(type),

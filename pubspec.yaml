@@ -62,6 +62,7 @@ flutter:
 
   assets:
       - assets/logo.png
+      - assets/calendar.png
 
   fonts:
     - family: Roboto
@@ -75,9 +76,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  assets:
-  - assets/calendar.png
 
 
 
